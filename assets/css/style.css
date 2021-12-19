@@ -77,5 +77,14 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpeg");
     height: 600px;
+    background-size: cover;
+    background-position: center;
 }
 /* Hero Style End */
+
+.hero-form{
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+}

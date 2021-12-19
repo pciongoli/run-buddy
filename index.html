@@ -30,9 +30,9 @@
                 </ul>
             </nav>
         </header>
-
+        
         <!-- hero/jumbotron-->
-        <section>
+        <section class="hero">
             <div>
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
@@ -41,9 +41,10 @@
                     <label for="name">Enter Full Name:</label>
                     <input type="text" placeholder="Your Name" name="name" id="name" />
                     <label for="email">Enter email address:</label>
-                    <input type="text" placeholder="Email Address" name="email" id="email"/>
+                    <input type="email" placeholder="Email Address" name="email" id="email"/>
                     <label for="phone">Enter phone number:</label>
-                    <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+                    <!--create radio button-->
                     <p>
                         Have you worked with a trainer before?
                         <input type="radio" name="trainer-confirm" id="trainer-yes"/>
@@ -51,11 +52,13 @@
                         <input type="radio" name="trainer-confrim" id="trainer-no"/>
                         <label for="trainer-no">No</label>
                     </p>
+                    <!--create checkbox-->
                     <p>
                         <label for="checkbox">
                             I acknowledge that i am at least 18 years of age.
                         </label>
                         <input type="checkbox" name="age-confirm" id="checkbox" />
+                        <!--add submit button-->
                     </p>
                     <button type="submit">
                         Get Running!

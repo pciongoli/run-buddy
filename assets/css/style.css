@@ -20,7 +20,9 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -29,7 +31,6 @@ header a {
 }
 
 header nav {
-    float: right;
     /* added 7px to top and botton and 0 to left and right */
     margin: 7px 0;
 }
